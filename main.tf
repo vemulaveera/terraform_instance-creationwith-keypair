@@ -9,7 +9,6 @@ variable "name" {
 }
 provider "aws" {
   region                  = "us-east-1"
-  # shared_credentials_file = "C:\\Users\\veera\\.aws\\credentials"
   profile                 = "default"
 }
 resource "aws_instance" "rhel" {
